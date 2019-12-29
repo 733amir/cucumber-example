@@ -33,3 +33,23 @@ manager, `npm`, to run behavior specifications.
 To install Cucumber run the following command:
 
     $ npm install cucumber --save-dev
+
+### Run Tests
+
+Edit `package.json` file and put the following instead of the default test
+script:
+
+    {
+        "scripts": {
+            "test": "cucumber-js"
+        },
+    }
+
+Now run `npm test` and you should see something like following:
+
+    > calculator@1.0.0 test /PATH/TO/THE/PROJECT
+    > cucumber-js
+
+    0 scenarios
+    0 steps
+    0m00.000s
