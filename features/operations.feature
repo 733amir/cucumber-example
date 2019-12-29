@@ -12,3 +12,8 @@ Feature: Different operations
         And modulo 5
         And multiply by 3
         Then result should be 11
+
+    Scenario: Divide by 0.
+        Given the caculator
+        When divide by 0
+        Then an error should happen
