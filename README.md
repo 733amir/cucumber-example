@@ -2,6 +2,12 @@
 
 A calculator for all engineers.
 
+## Initialization
+
+To start developing the project we need to initialize a node package. Run:
+
+    $ npm init --yes
+
 ## Cucumber
 
 This project is developed using BDD approach. In order to have live and
