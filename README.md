@@ -2,6 +2,17 @@
 
 A calculator for all engineers.
 
+## Dependencies
+
+Installing `node.js` and `npm` on _OS X_:
+
+    $ brew install node
+
+Print `node.js` and `npm` versions to verify successful installation:
+
+    $ node -v
+    $ npm -v
+
 ## Initialization
 
 To start developing the project we need to initialize a node package. Run:
@@ -19,13 +30,6 @@ run them.
 The project is written using JavaScript. We need `node.js` and node's package
 manager, `npm`, to run behavior specifications.
 
-#### Node.js
+To install Cucumber run the following command:
 
-Installing `node.js` and `npm` on _OS X_:
-
-    $ brew install node
-
-Print `node.js` and `npm` versions to verify successful installation:
-
-    $ node -v
-    $ npm -v
+    $ npm install cucumber --save-dev
